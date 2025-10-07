@@ -1,6 +1,6 @@
 package com.azizyilmaz.transfer.entity;
 
-import com.azizyilmaz.customer.entity.Customer;
+import com.azizyilmaz.fee.entity.Customer;
 import com.azizyilmaz.transfer.enums.Channel;
 import com.azizyilmaz.transfer.enums.Currency;
 import com.azizyilmaz.transfer.enums.TransferName;

@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/transfers")
 @RequiredArgsConstructor
+@RequestMapping("/api/transfers")
 public class OutgoingTransferController {
 
     private final OutgoingTransferService outgoingTransferService;

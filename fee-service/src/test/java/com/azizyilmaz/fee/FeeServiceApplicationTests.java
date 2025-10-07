@@ -1,10 +1,10 @@
-package com.azizyilmaz.customer;
+package com.azizyilmaz.fee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CustomerServiceApplicationTests {
+class FeeServiceApplicationTests {
 
     @Test
     void contextLoads() {

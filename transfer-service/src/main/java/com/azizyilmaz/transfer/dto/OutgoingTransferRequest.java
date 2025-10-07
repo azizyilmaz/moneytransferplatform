@@ -1,12 +1,13 @@
 package com.azizyilmaz.transfer.dto;
 
-import com.azizyilmaz.customer.entity.Customer;
+import com.azizyilmaz.fee.entity.Customer;
 import com.azizyilmaz.transfer.enums.Channel;
 import com.azizyilmaz.transfer.enums.Currency;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.validator.constraints.Length;
 
 import java.math.BigDecimal;
 
@@ -42,6 +43,7 @@ public class OutgoingTransferRequest {
     private String recipientIban;
 
     @NotNull
+    @Length(max = 100)
     private String recipientNameSurname;
 
     @NotNull
